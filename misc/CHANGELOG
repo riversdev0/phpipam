@@ -22,6 +22,7 @@
     Security Fixes:
     ----------------------------
     + XSS - reflected via HTTP_X_FORWARDED_PORT;
+    + Addedd CSRF cookie for clear-changelog and clear-log;
 
 == 1.7.0
 
