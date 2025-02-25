@@ -18,6 +18,7 @@
     ----------------------------
     + Don't update PowerDNS `change_date` removed in v2.1.9;
     + Added Isle of Man postcodes (#4318);
+    + Adds search functionality for Devices (#4406);
 
     Security Fixes:
     ----------------------------
