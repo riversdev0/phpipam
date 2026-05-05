@@ -68,7 +68,22 @@ if($POST->rackid>0 || @$device['rack']>0) {
 	?>
 
 	<tr>
-		<td></td>
+		<td>
+<script>
+$(document).ready(function(){
+	if ($("[rel=tooltip]").length) { $("[rel=tooltip]").tooltip(); }
+
+	/* bootstrap switch */
+	var switch_options = {
+		onColor: 'default',
+		offColor: 'default',
+		onText: 'Yes',
+		offText: 'No',
+		size: "mini"
+	};
+	$(".input-switch").bootstrapSwitch(switch_options);
+});
+		</td>
 		<td>
 			<a class="showRackPopup btn btn-xs btn-default" rel='tooltip' data-placement='right' data-rackid="<?php print @$rack->id; ?>" data-deviceid='<?php print @$device['id']; ?>' title='<?php print _("Show rack"); ?>'><i class='fa fa-server'></i></a>
 		</td>
