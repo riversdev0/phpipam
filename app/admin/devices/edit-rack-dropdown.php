@@ -83,6 +83,7 @@ $(document).ready(function(){
 	};
 	$(".input-switch").bootstrapSwitch(switch_options);
 });
+</script>
 		</td>
 		<td>
 			<a class="showRackPopup btn btn-xs btn-default" rel='tooltip' data-placement='right' data-rackid="<?php print @$rack->id; ?>" data-deviceid='<?php print @$device['id']; ?>' title='<?php print _("Show rack"); ?>'><i class='fa fa-server'></i></a>
